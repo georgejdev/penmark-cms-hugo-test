@@ -1,6 +1,6 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = "Tom's Blog"
+title = "Blog"
 theme = 'PaperMod'
 
 [taxonomies] 
@@ -20,7 +20,9 @@ theme = 'PaperMod'
 [penmark] 
    repo = "georgejdev/penmark-cms-hugo-test" 
    branch = "main" 
-   basePath = "content" 
+     authClientId="Ov23liiWuppoaftz66nS"
+    authClientSecret = "6b3e89a3932dd357520b46fbf235c6546ab00108"
+     basePath = "content" 
 
 [security] 
    enableInlineShortcodes = true
