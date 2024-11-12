@@ -17,6 +17,10 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-05-29T21:19:45-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/2024-11-12-test%20draft/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-11-12-test%20r/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/login/</loc>
