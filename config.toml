@@ -2,3 +2,25 @@ baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = "Tom's Blog"
 theme = 'PaperMod'
+
+[taxonomies] 
+    tag = "tags" 
+    category = "categories"
+    
+[markup]
+ [markup.goldmark] 
+   [markup.goldmark.renderer] 
+     unsafe = true 
+     
+[outputs] 
+  home = ["HTML", "RSS", "JSON"] 
+  page = ["HTML"] 
+  section = ["HTML", "RSS"] 
+
+[penmark] 
+   repo = "georgejdev/penmark-cms-hugo-test" 
+   branch = "main" 
+   basePath = "content" 
+
+[security] 
+   enableInlineShortcodes = true
